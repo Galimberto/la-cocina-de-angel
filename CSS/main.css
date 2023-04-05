@@ -1,0 +1,33 @@
+
+h1, h2{
+    text-align: center;
+}
+.center {
+    text-align: center;
+}
+    
+header{
+    background-color: black;
+    color: azure;
+}
+nav{
+    padding-top: 10px;
+    padding-left: 5px;
+}
+.nav{
+    background-color: gray;
+    color: azure;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+footer{
+    background-color: black;
+    color: azure;
+    text-align: center;
+    margin-top: 10px;
+
+}
+section div {
+    text-align: center;
+}
