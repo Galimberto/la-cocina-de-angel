@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/7dbe5f5ccc.js" crossorigin="anonymous"></script>
+    <title>La cocina de Angel</title>
+</head>
+<body>
+    <header style="background-color: goldenrod;">
+        <nav>
+            <a style="background-color: lightgray;" href="index.html">Home</a>
+            <a style="background-color: lightgray;" href="about.html">Acerca de ..</a>
+            <a style="background-color: lightgray;" href="contacto.html">Contacto</a>
+            <a style="background-color: lightgray;" href="formulario.html">Regístrese</a>
+            <a style="background-color: lightgray;" href="sucursales.html">Sucursales</a>
+        </nav>
+        <h1 style="text-align: center;">La cocina de Angel</h1>
+    </header>
+    
+    <section>
+        <h2>Formulario de registro</h2>
+        <form action="show_data.html" target="_blank">
+            <label for="firstname">Nombre:</label>
+            <input type="text" name="firstname" placeholder="Ingrese su nombre aqui...">
+            <br><br>
+            <label for="lastname">Apellido:</label>
+            <input type="text" name="lastname" placeholder="Ingrese su apellido aqui...">
+            <br><br>
+            <label for="street">Direccion:</label>
+            <input type="text" name="street" placeholder="Ingrese su direccion aqui...">
+            <br><br>
+            <label for="city">Ciudad:</label>
+            <input type="text" name="city" value="C.A.B.A.">
+            <br><br>
+            <label for="zipcode">Código Postal:</label>
+            <input type="text" name="zipcode" placeholder="Ingrese codigo postal aqui...">
+            <br><br>
+            <label for="Birthdate">Fecha de Nacimiento (dd/mm/yyyy):</label>
+            <input type="date"  name="Birthdate" ">
+            <br><br>
+            <p>Género
+                <input type="radio" name="genero" value="hombre" checked>Hombre
+                <input type="radio" name="genero" value="Mujer">Mujer
+                <input type="radio" name="genero" value="Otro">Otro
+            </p>
+            <p>Estudios:
+                <input type="checkbox" name="estudio" value="primarios">Primarios
+                <input type="checkbox" name="estudio" value="secundarios">Secundarioos
+                <input type="checkbox" name="estudio" value="terciarios">Terciarios
+                <input type="checkbox" name="estudio" value="universitarios">Universitarios
+                <input type="checkbox" name="estudio" value="otro">Otro
+            </p>
+            <input type="submit" value="Enviar">
+        </form>
+        <p>Si usted hace click en el boton "Enviar", la informacion sera enviada a la pagina "show_data.html"</p>
+    </section>
+    <footer style="background-color: goldenrod; text-align:center">
+        <br>
+        <a href="#"><i class="fa fa-twitter" aria-hideden="true"></i></a>
+        <a href="#"><i class="fa fa-facebook" aria-hideden="true"></i></a>
+        <a href="#"><i class="fa fa-pinterest" aria-hideden="true"></i></a>
+        <a href="#"><i class="fa fa-instagram" aria-hideden="true"></i></a>
+        <a href="#"><i class="fa fa-linkedin" aria-hideden="true"></i></a>
+        <br>
+        <br>
+        <p align="center">Derechos reservados &reg; 2023 &clubs;</p>
+        <br>
+    </footer>
+</body>
+</html>
